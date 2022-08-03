@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="courseOptions" >
+        <item>Technical</item>
+        <item>Non-Technical</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="optionValues" >
+        <item>Technical Course</item>
+        <item>Non-Technical Course</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
+
+

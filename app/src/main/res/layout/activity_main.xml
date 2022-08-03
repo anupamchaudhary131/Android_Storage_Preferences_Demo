@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtLearnVern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/LearnVern"
+        android:textSize="@dimen/headerSize"
+        android:textColor="@color/saffron"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store Information"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/saffron"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Preference"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/saffron"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>
